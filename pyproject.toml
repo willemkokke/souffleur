@@ -1,0 +1,17 @@
+[build-system]
+requires = ["uv_build>=0.11,<0.13"]
+build-backend = "uv_build"
+
+[project]
+name = "souffleur"
+version = "0.0.1"
+description = "Fast, accurate shell completion for CLIs, served from a cached manifest. Under construction."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Willem Kokke", email = "willem@humain-studios.com" }]
+keywords = ["completion", "autocomplete", "shell", "cli", "manifest"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+]
