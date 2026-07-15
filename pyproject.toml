@@ -4,9 +4,11 @@ build-backend = "uv_build"
 
 [project]
 name = "souffleur"
-version = "0.0.1"
+version = "0.0.2"
 description = "Fast, accurate shell completion for CLIs, served from a cached manifest. Under construction."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
 authors = [{ name = "Willem Kokke", email = "willem@humain-studios.com" }]
 keywords = ["completion", "autocomplete", "shell", "cli", "manifest"]
@@ -15,3 +17,7 @@ classifiers = [
     "Environment :: Console",
     "Programming Language :: Python :: 3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/willemkokke/souffleur"
+Repository = "https://github.com/willemkokke/souffleur"
